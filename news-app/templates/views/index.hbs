@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+<link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        {{>header}}
+    {{#each this}} 
+  <div class="card" id="myData" style="width: 18rem;">
+
+  <img src="myImage"  class="card-img-top"  id="myImage" >
+    <h5 class="card-title" id="title" ></h5>
+    <p class="card-text" id="describtion"></p>
+  
+</div> 
+ {{/each}}
+  {{>footer}}
+        <script src='js/app.js'></script>
+    </body>
+</html>

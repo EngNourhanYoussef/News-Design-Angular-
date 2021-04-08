@@ -1,0 +1,41 @@
+*{
+	padding: 0px;
+	box-sizing: border-box;
+	margin: 0px;
+}
+
+h1{
+    color:brown;
+    align-content: center;
+    padding-left: 400px ;
+    margin-bottom: 50px;
+    margin-top: 50px;
+
+}
+h4{
+    padding-left: 550px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+
+
+
+.header1{
+	background-color:#EBDC0D;
+	color: #000000;
+	
+}
+
+.header2{
+	background-color: #3B3B3B;
+	
+}
+
+.header2 a {
+	padding-left: 120px;
+	color: azure;
+}
+.card{
+    margin: 20px;
+}
